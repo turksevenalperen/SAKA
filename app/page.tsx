@@ -14,10 +14,8 @@ export default function Home() {
     setYesClicked(true);
   };
 
-  // Dinamik boyutlar
-  const yesScale = 1 + noCount * 0.2;  // her hayırda büyür
-  const noScale = Math.max(1 - noCount * 0.15, 0.2);  // her hayırda küçülür (min 0.2x)
-
+  const yesScale = 1 + noCount * 0.2;
+  const noScale = Math.max(1 - noCount * 0.15, 0.2);
   const hideNoButton = noCount >= 6;
 
   const mainStyle = {
@@ -64,7 +62,22 @@ export default function Home() {
           </div>
         </>
       ) : (
-        <h1 style={{ fontSize: '30px' }}>Al işteeeeeptğepteğptğpt biliyordum gitttttt SBS </h1>
+        <>
+          <img
+            src="/063b9661c3b6fkel.jpg"
+            alt="SBS"
+            style={{
+              width: '200px',
+              height: 'auto',
+              display: 'block',
+              margin: '0 auto 20px',
+              borderRadius: '12px',
+            }}
+          />
+          <h1 style={{ fontSize: '30px' }}>
+            Al işteeeeeptğepteğptğpt biliyordum gitttttt SBS 
+          </h1>
+        </>
       )}
     </main>
   );
