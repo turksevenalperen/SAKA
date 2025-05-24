@@ -48,7 +48,7 @@ export default function Home() {
             className="rounded-xl mx-auto mb-6"
           />
           <h1 className="text-3xl">
-            Al işteeeeeptğepteğptğpt biliyordum gitttttt SBS 🤪❤️
+            Al işteeeeeptğepteğptğpt biliyordum gitttttt SBS 
           </h1>
         </>
       )}
